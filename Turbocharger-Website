@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbocharger Components - Origin: Singapore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .product-categories {
+            margin: 2rem 0;
+        }
+        .product-categories h2 {
+            text-align: center;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .category {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            width: 150px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .qr-code {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turbocharger Components</h1>
+        <p>Country of Origin: Singapore</p>
+    </header>
+
+    <div class="container">
+        <section class="product-categories">
+            <h2>Available Products</h2>
+            <div class="categories">
+                <div class="category">ABB</div>
+                <div class="category">MAN</div>
+                <div class="category">Holset</div>
+                <div class="category">KBB</div>
+                <div class="category">Turbocharger Parts</div>
+                <div class="category">Turbocharger Kits</div>
+            </div>
+        </section>
+
+        <section class="qr-code">
+            <h2>Verify Product Origin</h2>
+            <p>Scan the QR code below to confirm:</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=The product's country of origin is Singapore
+            " alt="QR Code">
+
+
+        </section>
+    </div>
+
+    <footer>
+        <p>Contact us at: +65-1234-5678 (Singapore)</p>
+        <p>&copy; 2024 Turbocharger Components</p>a
+    </footer>
+</body>
+</html>
